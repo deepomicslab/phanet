@@ -1,0 +1,68 @@
+{
+  "directory": "results",
+  "summary": {
+    "categories": [
+      "Lysis",
+      "Integration",
+      "Replication",
+      "tRNA-related",
+      "Regulation",
+      "Packaging",
+      "Assembly",
+      "Infection",
+      "Immune"
+    ],
+    "method": "network",
+    "network_used": true,
+    "phanet_assigned": 1,
+    "phanet_targets": 1,
+    "proteins": 3,
+    "remaining_unresolved": 0,
+    "state": "complete",
+    "traditional_annotated": 2
+  },
+  "proteins": [
+    {
+      "protein_id": "contig000001_1",
+      "start": "48",
+      "end": "578",
+      "strand": "+",
+      "product": "-",
+      "traditional_status": "unresolved",
+      "labels": "",
+      "phanet_labels": "Assembly",
+      "phanet_method": "network",
+      "final_labels": "Assembly",
+      "final_source": "PhaNet-Network",
+      "network_route": "sequence"
+    },
+    {
+      "protein_id": "contig000001_2",
+      "start": "599",
+      "end": "961",
+      "strand": "+",
+      "product": "Psort location Cytoplasmic, score 8.87",
+      "traditional_status": "annotated",
+      "labels": "Assembly",
+      "phanet_labels": "",
+      "phanet_method": "",
+      "final_labels": "Assembly",
+      "final_source": "eggNOG-mapper",
+      "network_route": ""
+    },
+    {
+      "protein_id": "contig000001_3",
+      "start": "958",
+      "end": "1512",
+      "strand": "+",
+      "product": "COG NOG24969 non supervised orthologous group",
+      "traditional_status": "annotated",
+      "labels": "",
+      "phanet_labels": "",
+      "phanet_method": "",
+      "final_labels": "",
+      "final_source": "eggNOG-mapper",
+      "network_route": ""
+    }
+  ]
+}

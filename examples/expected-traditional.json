@@ -1,0 +1,74 @@
+{
+  "directory": "prepared",
+  "summary": {
+    "contigs": 1,
+    "no_coding_genes": 0,
+    "pending_phanet": 0,
+    "phanet_predictions_generated": false,
+    "proteins": 6,
+    "state": "prepared",
+    "traditional_annotated": 6
+  },
+  "proteins": [
+    {
+      "protein_id": "contig000001_1",
+      "contig_id": "lambda_J02459_1_43501_47000",
+      "start": "3",
+      "end": "389",
+      "strand": "+",
+      "product": "hydrolase activity",
+      "labels": "",
+      "traditional_status": "annotated"
+    },
+    {
+      "protein_id": "contig000001_2",
+      "contig_id": "lambda_J02459_1_43501_47000",
+      "start": "431",
+      "end": "1009",
+      "strand": "+",
+      "product": "unfolded protein binding",
+      "labels": "Replication",
+      "traditional_status": "annotated"
+    },
+    {
+      "protein_id": "contig000001_3",
+      "contig_id": "lambda_J02459_1_43501_47000",
+      "start": "1686",
+      "end": "2009",
+      "strand": "+",
+      "product": "Phage holin family (Lysis protein S)",
+      "labels": "Lysis",
+      "traditional_status": "annotated"
+    },
+    {
+      "protein_id": "contig000001_4",
+      "contig_id": "lambda_J02459_1_43501_47000",
+      "start": "1993",
+      "end": "2469",
+      "strand": "+",
+      "product": "Phage lysozyme",
+      "labels": "Lysis",
+      "traditional_status": "annotated"
+    },
+    {
+      "protein_id": "contig000001_5",
+      "contig_id": "lambda_J02459_1_43501_47000",
+      "start": "2466",
+      "end": "2927",
+      "strand": "+",
+      "product": "Necessary for host cell lysis. It is believed to code for an endopeptidase that cleaves the amino-carboxyl cross-link between the diaminopimelic acid and D-alanine residues in the murein component of the bacterial cell wall (By similarity)",
+      "labels": "Lysis;Assembly",
+      "traditional_status": "annotated"
+    },
+    {
+      "protein_id": "contig000001_6",
+      "contig_id": "lambda_J02459_1_43501_47000",
+      "start": "2959",
+      "end": "3252",
+      "strand": "-",
+      "product": "Bor protein",
+      "labels": "",
+      "traditional_status": "annotated"
+    }
+  ]
+}

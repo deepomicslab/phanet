@@ -1,0 +1,14 @@
+{
+  "accession": "J02459.1",
+  "organism": "Escherichia phage Lambda",
+  "coordinates_1_based_inclusive": [
+    43501,
+    47000
+  ],
+  "strand": "+",
+  "source": "https://www.ebi.ac.uk/ena/browser/api/fasta/J02459.1",
+  "source_record_sequence_sha256": "36432a40f602258d19ae7c8152ddbc30390b559f2859c01d7047c77b048c71b3",
+  "example_fasta_sha256": "28cec7eb15044f0c6f864c352b9b57fd2720e85b638371daa77946758be21556",
+  "purpose": "Traditional annotation example",
+  "source_policy": "https://www.ebi.ac.uk/ena/browser/about/data-usage"
+}

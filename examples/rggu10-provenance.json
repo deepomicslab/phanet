@@ -1,0 +1,33 @@
+{
+  "accession": "LC889025.1",
+  "organism": "Ruminococcus phage RgGU10",
+  "source_url": "https://www.ebi.ac.uk/ena/browser/api/fasta/LC889025.1?download=false",
+  "source_fasta_sha256": "81bed1e724c90139ee01fdbb249318b368053bef83a7dda4551c7bdd26a682ec",
+  "coordinates_1_based_inclusive": [
+    7351,
+    9050
+  ],
+  "strand": "+",
+  "example_fasta_sha256": "87a18231ec651a640a5fa5e3a7e79eb14a6b36d6eadb6aa7879fa460350d186c",
+  "selection": "Contiguous genomic segment.",
+  "reference_doi": "10.1128/spectrum.03672-25",
+  "purpose": "Genome annotation and PhaNet supplementation example",
+  "validated_methods": [
+    "glm",
+    "network",
+    "combined"
+  ],
+  "expected_counts": {
+    "proteins": 3,
+    "traditional_annotated": 2,
+    "phanet_targets": 1,
+    "phanet_assigned": 1,
+    "remaining_unresolved": 0
+  },
+  "traditional_versions": {
+    "Prodigal": "2.6.3",
+    "eggNOG-mapper": "2.1.13",
+    "DIAMOND": "2.0.11",
+    "eggNOG": "5.0.2"
+  }
+}

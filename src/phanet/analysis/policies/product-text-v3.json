@@ -1,0 +1,1231 @@
+{
+  "schema": 1,
+  "rule_id": "public-product-text-v3-missing-markers",
+  "scope": "development_pilot",
+  "parent_rule": "pilot-product-text-v1",
+  "generic": [
+    "",
+    "hypothetical protein",
+    "phage protein",
+    "protein",
+    "uncharacterized protein",
+    "unknown",
+    "unknown protein",
+    "-",
+    "na",
+    "n/a"
+  ],
+  "substrings": [
+    "hypothetical",
+    "uncharacterized"
+  ],
+  "prefixes": [
+    "duf"
+  ],
+  "normalization": "Unicode casefold and whitespace collapse; exact whole-description overrides",
+  "review_source_sha256": "b40caaac3b1ea610addaedb3a45a7cec8c3b5d171836b9ddd875c02412efedda",
+  "remaining_description_policy": "Apply the parent text rules to descriptions without an override.",
+  "reviewed_descriptions": [
+    {
+      "product": "Bacterial protein of unknown function (DUF882)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "COG NOG06028 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG06100 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG08810 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG09493 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG12663 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG14118 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG14441 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG14445 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG14934 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG16320 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG17114 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG18353 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG18822 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG18823 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG18825 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG19076 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG19093 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG19098 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG20168 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG23194 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG23400 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG23522 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG24969 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG25118 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG27363 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG28280 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG28949 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG32858 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG33632 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "COG NOG36366 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "Conserved Protein",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "Conserved protein",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "Domain of Unknown Function (DUF1540)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of Unknown Function (DUF1599)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of Unknown Function with PDB structure (DUF3850)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of Unknown Function with PDB structure (DUF3857)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of Unknown Function with PDB structure (DUF3862)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1738)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1768)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1833)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1834)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1845)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1848)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1929)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF1963)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF2479)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF2828)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF3127)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF3427)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF3560)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF3599)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF3825)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF3846)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4041)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4121)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4136)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4145)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4160)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4176)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4177)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4222)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4265)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4313)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4314)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4317)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4343)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4352)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4355)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4357)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4365)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4367)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4368)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4373)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4376)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4400)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4406)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4417)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4468) with TBP-like fold",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4494)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4761)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4942)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF4948)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF5026)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF5049)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF5050)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF5053)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF5055)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF5067)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF927)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function (DUF932)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function DUF11",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function DUF1828",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Domain of unknown function, B. Theta Gene description (DUF3873)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5309)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5347)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5361)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5375)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5457)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5467)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Family of unknown function (DUF5469)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "MTH538 TIR-like domain (DUF1863)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Membrane",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "Mycoplasma protein of unknown function, DUF285",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "NOG23194 non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "PDDEXK-like domain of unknown function (DUF3799)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "PFAM Uncharacterised protein family UPF0150",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Pfam:DUF1052",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Pfam:DUF955",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Phage derived protein Gp49-like (DUF891)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Phage uncharacterised protein (Phage_XkdX)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Plasmid protein of unknown function (Plasmid_RAQPRD)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Predicted membrane protein (DUF2335)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Predicted periplasmic lipoprotein (DUF2279)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein conserved in bacteria",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1018)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1031)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1064)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1071)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1073)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1133)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1232)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1273)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1293)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1317)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1320)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1351)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1364)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1372)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1376)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1382)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1441)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1492)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1525)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1566)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1617)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1643)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1653)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1778)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF1804)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2185)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2400)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2442)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2493)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2511)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2514)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2523)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2528)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2543)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2560)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2577)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2586)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2590)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2591)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2597)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2612)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2634)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2635)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2724)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2732)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2737)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2750)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2786)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2793)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2800)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2815)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2824)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2829)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2856)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2859)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2895)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2958)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2971)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF2976)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3084)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3102)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3158)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3164)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3168)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3199)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3262)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3277)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3307)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3383)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3438)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3486)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3487)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3577)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3634)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3791)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3800)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3853)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF3990)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4035)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4054)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF406)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4065)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4127)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4231)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4236)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF4238)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF433)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF5131)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF550)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF551)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF669)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF739)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF806)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF935)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF968)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function (DUF983)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function DUF262",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknown function DUF86",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Protein of unknwon function (DUF3310)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Psort location Cellwall, score",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location Cytoplasmic, score",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location Cytoplasmic, score 7.50",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location Cytoplasmic, score 8.87",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location Cytoplasmic, score 8.96",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score 10.00",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score 7.63",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score 9.26",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score 9.46",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score 9.82",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location CytoplasmicMembrane, score 9.99",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location Extracellular, score",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location OuterMembrane, score",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "Psort location OuterMembrane, score 10.00",
+      "unresolved": true,
+      "reason": "localization_prediction_only"
+    },
+    {
+      "product": "STAS-like domain of unknown function (DUF4325)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Siphovirus protein of unknown function (DUF859)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Uncharacterised protein conserved in bacteria (DUF2313)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "Uncharacterised protein family (UPF0167)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "VWA-like domain (DUF2201)",
+      "unresolved": true,
+      "reason": "unresolved_word_outside_old_rule"
+    },
+    {
+      "product": "domain protein",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "domain, Protein",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "membrane",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    },
+    {
+      "product": "non supervised orthologous group",
+      "unresolved": true,
+      "reason": "orthology_identifier_without_role"
+    },
+    {
+      "product": "protein conserved in bacteria",
+      "unresolved": true,
+      "reason": "generic_description_outside_old_rule"
+    }
+  ],
+  "previous_rule_id": "pilot-product-text-v2-reviewed-20261001"
+}

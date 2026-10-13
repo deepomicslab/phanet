@@ -1,0 +1,5 @@
+include configs/default.json
+include configs/network.json
+include THIRD_PARTY_NOTICES.txt
+recursive-include docs *.md
+recursive-include examples *.md *.fna *.json *.tsv *.py

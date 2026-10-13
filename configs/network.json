@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "reference": "/path/to/phanet-network",
+  "profiles": "/path/to/phrog_v4.hmm",
+  "tmvec_model": "/path/to/tmvec-inference",
+  "prott5": "/path/to/prot_t5_xl_uniref50",
+  "mmseqs": "/path/to/mmseqs"
+}

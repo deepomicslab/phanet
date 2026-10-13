@@ -1,0 +1,8 @@
+{
+  "accession": "J02459.1",
+  "organism": "Escherichia phage Lambda",
+  "source_url": "https://www.ebi.ac.uk/ena/browser/api/fasta/J02459.1",
+  "length_bp": 48502,
+  "sequence_sha256": "36432a40f602258d19ae7c8152ddbc30390b559f2859c01d7047c77b048c71b3",
+  "example_fasta_sha256": "5a3f0aee38ccb9af38bbcf708e1dc73dc29bc905576053e0473fecd130a954eb"
+}
