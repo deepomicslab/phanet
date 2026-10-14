@@ -36,6 +36,9 @@ and extract all ZIP parts into that directory, keeping the downloaded folder
 name. The bundle should be at `$PHANET_DATA/phanet/`, with
 `RESOURCE_MANIFEST.json` directly inside it.
 
+For Module, GO, VF, RBP and taxonomy models, see
+[model installation](docs/models.md).
+
 ### 1. Install and configure once
 
 From the source directory containing `pyproject.toml` and `examples/`, copy:

@@ -5,16 +5,23 @@ and domain summaries. Use a new output directory for each run.
 
 ## Sequence prediction
 
-Use task bundles produced by [training](training.md#rbp-and-taxonomy-models).
+Install the models into your data directory:
+
+```bash
+phanet setup-models --models rbp taxonomy --out "$PHANET_DATA/models"
+```
+
+See [model installation](models.md) for manual downloads and offline use.
+You can also use bundles produced by [training](training.md#rbp-and-taxonomy-models).
 From nucleotide FASTA:
 
 ```bash
 phanet predict-rbp --input query-genomes.fna \
   --config "$PHANET_DATA/traditional.json" --esm-model "$PHANET_ESM_MODEL" \
-  --model rbp-fit/model --device cuda --out rbp-results
+  --model "$PHANET_DATA/models/rbp" --device cuda --out rbp-results
 phanet predict-taxonomy --input query-genomes.fna \
   --config "$PHANET_DATA/traditional.json" --esm-model "$PHANET_ESM_MODEL" \
-  --model taxonomy-fit/model --method glm --device cuda --out taxonomy-results
+  --model "$PHANET_DATA/models/taxonomy" --method glm --device cuda --out taxonomy-results
 ```
 
 Replace `--input` and `--config` with `--dataset prepared/dataset` to reuse native

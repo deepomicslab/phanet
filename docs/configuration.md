@@ -43,7 +43,11 @@ $PHANET_DATA/
     go/CC/
     go/MF/
     vf/
+    rbp/
+    taxonomy/
 ```
+
+Install the task bundles with [setup-models](models.md).
 
 The Python environment and annotation-tool environment are separate from these
 data directories. Keep input FASTA files outside output directories. For example:

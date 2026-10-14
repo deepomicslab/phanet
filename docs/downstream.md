@@ -9,7 +9,13 @@ conda activate phanet
 source "$PHANET_DATA/config-glm/activate.sh"
 ```
 
-The examples use task model bundles already at these locations:
+Install the task models once (see [model installation](models.md)):
+
+```bash
+phanet setup-models --models module go vf --out "$PHANET_DATA/models"
+```
+
+The examples use these model locations:
 
 | Command | Purpose | Model path |
 |---|---|---|

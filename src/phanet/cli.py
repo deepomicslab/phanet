@@ -98,6 +98,12 @@ def main(argv=None):
     resources.add_argument("--build-mmseqs", action="store_true", help="Download and build the exact compatible MMseqs2 source")
     resources.add_argument("--threads", type=int, default=4)
     resources.add_argument("--offline", action="store_true", help="Verify existing third-party files without downloading")
+    models = sub.add_parser("setup-models", help="Download or import verified PhaNet model bundles")
+    models.add_argument("--out", type=Path, required=True, help="Model root directory")
+    models.add_argument("--models", nargs="+", required=True,
+                        choices=["glm", "module", "go", "vf", "rbp", "taxonomy"])
+    models.add_argument("--archives", type=Path, help="Import ZIPs from a local directory without downloading")
+    models.add_argument("--offline", action="store_true", help="Use installed files or cached ZIPs only")
     infer = sub.add_parser("annotate", help="Traditional annotation followed by network and GLM supplementation")
     infer.add_argument("--method", choices=["combined", "glm", "network"], default="combined", help="Combined network and GLM (default), GLM only, or network only")
     infer.add_argument("--network-config", type=Path, default=os.environ.get("PHANET_NETWORK_CONFIG"), help="Network resource JSON (or PHANET_NETWORK_CONFIG)")
@@ -167,6 +173,13 @@ def main(argv=None):
                              batch_size=args.batch_size, device=args.device,
                              namespaces=getattr(args, "namespace", ("BP", "CC", "MF")),
                              progress=lambda msg: print(msg, file=sys.stderr, flush=True))
+            print(json.dumps(result, indent=2))
+            return 0
+        if args.command == "setup-models":
+            from phanet.model_resources import setup_models
+            result = setup_models(args.out, models=args.models, archives=args.archives,
+                                  offline=args.offline,
+                                  progress=lambda msg: print(msg, file=sys.stderr, flush=True))
             print(json.dumps(result, indent=2))
             return 0
         if args.command == "setup-resources":

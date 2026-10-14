@@ -59,7 +59,7 @@ small example run:
 | eggNOG installation, retained downloads and extraction | About 65 GB |
 | Extracted PhaNet resource bundle | About 26 GB; downloaded ZIPs need additional space |
 | External models | About 2.6 GB for GLM; 11.7 GB for network; 14.3 GB for combined |
-| Module/GO/VF model bundles, when used | About 1.6 GB total |
+| Module/GO/VF/RBP/taxonomy model bundles, when used | About 2.3 GB extracted, plus 2.1 GB cached ZIPs |
 
 Add space for your input files, protein embeddings and results as the dataset
 grows. Choose the data location with `PHANET_DATA`; configurations and model
@@ -226,6 +226,12 @@ Results are under `lambda-analysis/annotation/results/`.
 For network/combined setup select `--method network` or `--method combined`.
 See the [worked examples](../examples/README.md),
 [run guide](workflow.md) and [output fields](results.md).
+
+## Task models
+
+Install Module, GO, VF, RBP and taxonomy models with
+[the model installation command](models.md). It checks each download and writes
+model directories that can be passed directly to prediction commands.
 
 ## GPU installation
 

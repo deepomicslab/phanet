@@ -7,7 +7,8 @@ not contain checkpoints or reference databases.
 
 | Resource | Distribution and source |
 |---|---|
-| PhaNet GLM | Manual PhaNet bundle; inference weights and model metadata. |
+| PhaNet GLM | Annotation bundle or [model installer](models.md); inference weights and model metadata. |
+| PhaNet Module / GO / VF / RBP / taxonomy | [Model folder](https://drive.google.com/drive/folders/1RajAiCH51hHKPcjBYXlXDyw3FjhAHxqq); install with `phanet setup-models`. |
 | PhaNet reference network | Manual bundle; fixed derived graph, functional labels, reference sequences and representations. Source sequence/data terms remain applicable. |
 | Converted PHROG v4 profiles | Manual bundle; 38,880 official PHROG alignments converted with HMMER 3.4 `hmmbuild --amino`. The HMMER file is identified by SHA-256 in the network manifest. |
 | ESM2 650M | Automatic download from [Meta ESM](https://github.com/facebookresearch/esm), including the contact-regression companion. |
@@ -31,4 +32,5 @@ its BSD-3-Clause text are included in
 [THIRD_PARTY_NOTICES.txt](../THIRD_PARTY_NOTICES.txt).
 
 All automatic model downloads are pinned by full SHA-256 and file size in the installer.
-Run `phanet setup-resources` to download and configure the model files.
+Use `phanet setup-resources` for external models and annotation configuration,
+and `phanet setup-models` for PhaNet prediction bundles.
